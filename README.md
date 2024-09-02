@@ -194,4 +194,4 @@ Füge den Commit in den development-Branch ein:
 git cherry-pick <commit-hash>
 ```
 
-Nein, falsher Commit-Hash, suche weiter.
+Guter versuch, aber trotzdem falscher Commit. Versuche es nochmal.

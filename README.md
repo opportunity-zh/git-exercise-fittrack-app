@@ -153,3 +153,45 @@ git stash pop
 
 - Was ist Stash?
 - Wann ist es sinnvoll, Stash zu verwenden?
+
+## Übung 5: Cherry-Pick
+
+Ziel: Wähle einen Commit aus einem Branch aus und füge ihn in einen anderen Branch ein.
+
+### Schritte:
+
+Wechsle in den Branch development:
+
+```bash
+git checkout development
+```
+
+Im Branch feature-cherry-pick wurde steht der Rest dieser Übung, aber in einem alten Commit. Du möchtest den Code aus diesem Commit in den development-Branch einfügen.
+
+Wechsle in den Branch feature-cherry-pick:
+
+```bash
+git checkout feature-cherry-pick
+```
+
+Finde den Commit, den du einfügen möchtest:
+
+```bash
+git log
+```
+
+#### Kopiere den Commit-Hash, den du einfügen möchtest.
+
+Wechsle zurück in den development-Branch:
+
+```bash
+git checkout development
+```
+
+Füge den Commit in den development-Branch ein:
+
+```bash
+git cherry-pick <commit-hash>
+```
+
+Hinweis: Um einen Commit anzusehen, kannst du `git show <commit-hash>` verwenden oder in den Commit wechseln mit `git checkout <commit-hash>`.

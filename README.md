@@ -32,3 +32,29 @@ git clone https://github.com/yourusername/fittrack-app.git
 ```bash
 cd fittrack-app
 ```
+
+## Übung 2: Git Merge (Feature-Branch in Entwicklung)
+
+Ziel: Mergen von Updates aus feature-user-profile in den Branch development.
+
+### Schritte:
+
+Merge den Branch feature-user-profile in development:
+
+In den Branch development wechseln:
+
+```bash
+git checkout development
+```
+
+Merge den Branch feature-user-profile in development:
+
+```bash
+git merge feature-user-profile
+```
+
+Jetzt sollte der Branch development die Updates aus feature-user-profile enthalten.
+
+```bash
+git push origin development
+```

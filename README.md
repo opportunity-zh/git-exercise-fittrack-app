@@ -24,7 +24,7 @@ Ziel: Klone das Repository, um mit den Funktionen zu arbeiten.
 ### Klone das Repository:
 
 ```bash
-git clone https://github.com/yourusername/fittrack-app.git
+git clone https://github.com/yourusername/git-exercise-fittrack-app.git
 ```
 
 ### Wechsle in das Repository-Verzeichnis:

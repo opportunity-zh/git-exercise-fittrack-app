@@ -194,9 +194,4 @@ Füge den Commit in den development-Branch ein:
 git cherry-pick <commit-hash>
 ```
 
-Super! Du hast den Commit erfolgreich in den development-Branch eingefügt.
-
-### Fragen beantworten:
-
-- Wann ist es sinnvoll, Cherry-Pick zu verwenden?
-- Was sind die Risiken beim Cherry-Pick?
+Nein, falsher Commit-Hash, suche weiter.

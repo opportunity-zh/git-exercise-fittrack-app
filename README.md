@@ -58,37 +58,3 @@ Jetzt sollte der Branch development die Updates aus feature-user-profile enthalt
 ```bash
 git push origin development
 ```
-
-## Übung 3: Konfliktlösung mit Git Merge (Während der Entwicklung Integration)
-
-Ziel: Handle einen Merge-Konflikt beim Integrieren von feature-workout-tracking in development.
-
-Versuche zu mergen und löse den Konflikt.
-
-Schritte:
-
-Wechsel in den Branch development:
-
-```bash
-git checkout development
-```
-
-Merge den Branch feature-workout-tracking in development und löse den Konflikt:
-
-```bash
-git merge feature-workout-tracking
-```
-
-Wenn alles gelöst ist, pushe die Änderungen:
-
-```bash
-git add .
-```
-
-```bash
-git commit -m "Konflikt zwischen Entwicklung und feature-workout-tracking gelöst"
-```
-
-```bash
-git push origin development
-```

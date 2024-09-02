@@ -2,7 +2,7 @@
 class NutritionPlan {
   constructor(plan) {
     this.plan = plan;
-    // this.meals = plan.meals;
+    this.meals = plan.meals;
   }
 
   displayPlan() {
